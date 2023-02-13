@@ -1,4 +1,4 @@
-# Eufy Security Add-on
+# Eufy Security Add-on (Beta)
 
  Required Add-On for eufy_security integration. Please use repository below to raise the issues.
  
