@@ -38,5 +38,5 @@
     "EVENT_DURATION_SECONDS": "int(1,999)",
     "TRUSTED_DEVICE_NAME": "str"
   },
-  "image": "bropat/eufy-security-ws"
+  "image": "witoldgren/eufy-security-ws"
 }
