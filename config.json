@@ -30,10 +30,10 @@
     "TRUSTED_DEVICE_NAME": "",
     "P2P_CONNECTION_SETUP": 2,
     "POLLING_INTERVAL_MINUTES": 10,
-    "AUTO_ACCEPT_INVITATIONS": False,
+    "AUTO_ACCEPT_INVITATIONS": false,
     "PORT": 3000,
     "STATION_IP_ADDRESSES": "",
-    "DEBUG_MODE": False
+    "DEBUG_MODE": false
   },
   "schema": {
     "USERNAME": "email",
