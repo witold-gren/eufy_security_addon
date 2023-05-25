@@ -9,8 +9,7 @@
   "services": [],
   "arch": [
     "amd64",
-    "armv7",
-    "i386"
+    "armv7"
   ],
   "boot": "auto",
   "ingress": false,
