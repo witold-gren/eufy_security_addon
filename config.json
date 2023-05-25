@@ -28,15 +28,29 @@
     "USERNAME": "email@address.com",
     "PASSWORD": "password",
     "COUNTRY": "US",
+    "LANGUAGE": "en",
     "EVENT_DURATION_SECONDS": 10,
-    "TRUSTED_DEVICE_NAME": ""
+    "TRUSTED_DEVICE_NAME": "",
+    "P2P_CONNECTION_SETUP": 2,
+    "POLLING_INTERVAL_MINUTES": 10,
+    "AUTO_ACCEPT_INVITATIONS": False,
+    "PORT": 3000,
+    "STATION_IP_ADDRESSES": "",
+    "DEBUG_MODE": False
   },
   "schema": {
     "USERNAME": "email",
     "PASSWORD": "password",
     "COUNTRY": "str",
+    "LANGUAGE": "str",
     "EVENT_DURATION_SECONDS": "int(1,999)",
-    "TRUSTED_DEVICE_NAME": "str"
+    "TRUSTED_DEVICE_NAME": "str",
+    "P2P_CONNECTION_SETUP": "int(1,3)",
+    "POLLING_INTERVAL_MINUTES": "int(5,120)",
+    "AUTO_ACCEPT_INVITATIONS": "bool",
+    "PORT": "port",
+    "STATION_IP_ADDRESSES": "str?",
+    "DEBUG_MODE": "bool"
   },
   "image": "witoldgren/eufy-security-ws"
 }
